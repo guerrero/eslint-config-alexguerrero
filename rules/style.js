@@ -20,7 +20,13 @@ module.exports = {
     'keyword-spacing': ['error', {before: true, after: true}],
     'linebreak-style': ['error', 'unix'],
     'max-depth': ['error', 4],
-    'max-len': ['error', 80, 2],
+    'max-len': ['error', 86, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
     'max-lines': ['error', {
       max: 512,
       skipBlankLines: true,
