@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-alexguerrero",
+  "version": "0.0.0",
+  "description": "My personal ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint; node test/test.js",
+    "lint": "eslint .",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerrero/eslint-config-alexguerrero.git"
+  },
+  "author": {
+    "name": "Alex Guerrero",
+    "email": "hello@alexguerrero.es"
+  },
+  "license": "Unlicense",
+  "files": [
+    "*.js",
+    "rules"
+  ],
+  "bugs": {
+    "url": "https://github.com/guerrero/eslint-config-alexguerrero/issues"
+  },
+  "homepage": "https://github.com/guerrero/eslint-config-alexguerrero#readme",
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-plugin-promise": "^3.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.10.2",
+    "eslint-plugin-promise": ">=3.4.0"
+  }
+}
