@@ -6,7 +6,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'complexity': ['error', 5],
     'consistent-return': 'error',
-    'curly': ['error', 'multi', 'consistent'],
+    'curly': ['error', 'multi-line', 'consistent'],
     'default-case': 'error',
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
