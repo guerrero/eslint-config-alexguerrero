@@ -27,7 +27,7 @@ Once the `eslint-config-alexguerrero` package is installed, you can use it by sp
 }
 ```
 
-### Using the this config along `eslint:recommended`
+### Using this config along `eslint:recommended`
 
 There are several rules in the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/) these rules are not opinionated about that you might want to enforce in your project.
 
